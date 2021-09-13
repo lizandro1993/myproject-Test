@@ -1,0 +1,89 @@
+body{
+	background: rgba(0, 0, 0, 0.4);
+	margin: 0;
+	color: white;
+
+	font-family: 'Inconsolata', monospace;
+}
+
+header{
+	
+	z-index: 1;
+	text-align: center;
+	background-image: center;
+	content: center;
+	top: 10%;
+	text-align: center;
+	resize: horizontal 40%;
+	resize: vertical 40%;
+	border-color: rgba(0, 0, 0, 0.7);
+	font-family: 'Patrick Hand', cursive;
+}
+
+.logo{
+	border-color: darkslategrey;
+	border-width: 50px;
+	border-style: groove;
+	backface-visibility: hidden;
+
+}
+
+
+.title{
+
+	font-family: 'Patrick Hand', cursive;
+	font-size: 4rem;
+	font-variant-position: center;
+	position: center;
+	margin-top: 1rem;
+	color: darkslategrey;
+
+}
+
+.grid-3{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 20px;
+}
+
+.grid-2{
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 20px;
+
+}
+
+.container{
+	width: 960px;
+	margin: auto;
+	overflow: hidden;
+	padding: 4rem 1rem;
+}
+
+.text-center{
+	text-align: center;
+	margin: auto;
+
+}
+
+.bg-light{
+	background: white;
+	color: darkslategrey;
+}
+
+.hobbies{
+	padding: 2rem ;
+	margin: auto;
+}
+
+.text{
+	font-size: 1.5rem;
+	justify-content: yes;
+}
+footer{
+	padding: 2.2rem;
+}
+
+footer p{
+	margin: 0;
+}
